@@ -1,0 +1,26 @@
+{
+  "name": "expresswebapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app node app.js",
+    "lint": "eslint app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "chalk": "^2.4.1",
+    "debug": "^2.6.6",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
